@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
               className="social-icon__link"
               href="https://wa.link/woz279"
             >
-             <i class="bi bi-whatsapp"></i>
+             <i className="bi bi-whatsapp"></i>
             </a>
           </li>
           <li className="social-icon__item">
@@ -22,7 +22,7 @@ const Footer = () => {
               className="social-icon__link"
               href="https://www.instagram.com/ll__prince.xx/?igshid=NzZhOTFlYzFmZQ%3D%3D"
             >
-              <i class="bi bi-instagram"></i>
+              <i className="bi bi-instagram"></i>
             </a>
           </li>
           <li className="social-icon__item">
@@ -30,7 +30,7 @@ const Footer = () => {
               className="social-icon__link"
               href="https://www.linkedin.com/feed/"
             >
-              <i class="bi bi-linkedin"></i>
+              <i className="bi bi-linkedin"></i>
             </a>
           </li>
           <li className="social-icon__item">
@@ -38,7 +38,7 @@ const Footer = () => {
               className="social-icon__link"
               href="https://github.com/Prince-2028"
             >
-              <i class="bi bi-github"></i>
+              <i className="bi bi-github"></i>
             </a>
             
           </li>
@@ -47,7 +47,7 @@ const Footer = () => {
               className="social-icon__link"
               href="https://www.facebook.com/yadav.kumer.37?mibextid=ZbWKwL"
             >
-              <i class="bi bi-facebook"></i>
+              <i className="bi bi-facebook"></i>
             </a>
           </li>
              

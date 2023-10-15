@@ -7,9 +7,7 @@ import "./App.css";
 import Footer from "./Footer";
 
 import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
-import { useState } from "react";
-import { DarkMode } from "@mui/icons-material";
-import { dark } from "@mui/material/styles/createPalette";
+
 import Project from "./Component/Projects";
 
 const App = () => {

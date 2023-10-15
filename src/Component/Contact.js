@@ -30,7 +30,7 @@ const Contact = () => {
                   name="email"
                   placeholder="Your Email"
                 />
-                <label for="country">Country</label>
+                <label htmlFor="country">Country</label>
                 <select id="country" name="country">
                   <option value="Haryana">Haryana</option>
                   <option value="Rajsthan">Rajsthan</option>

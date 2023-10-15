@@ -84,18 +84,18 @@ const Skill = () => {
             <a href="#">Learn More</a>
           </div>
           <div className=""></div>
-          <div class="services-box">
+          <div className="services-box">
             <box-icon name="server" type="solid"></box-icon>
             <h3>Backend Development</h3>
             <a href="#">Learn More</a>
           </div>
-          <div class="services-box">
+          <div className="services-box">
             <box-icon name="brush" type="solid"></box-icon>
             <h3>UI/UX Design</h3>
             <a href="#">Learn More</a>
           </div>
 
-          <div class="services-box">
+          <div className="services-box">
             <box-icon name="android" type="logo"></box-icon>
             <h3>App Development</h3>
             <a href="#">Learn More</a>
