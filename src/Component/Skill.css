@@ -1,0 +1,152 @@
+ .skill-bars {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 300px;
+           
+        }
+
+        .skill-bar {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 10px;
+            overflow: hidden;
+            position: relative;
+
+        }
+
+        .skill-fill {
+            width: 0;
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: fillSkill 4s ease;
+        }
+
+        .skill-name {
+            padding: 5px;
+            color: #000;
+            z-index: 1;
+        }
+
+        .percentage {
+            margin-left: 10px;
+            font-weight: bold;
+            z-index: 1;
+        }
+
+        @keyframes fillSkill {
+            0% {
+                width: 0;
+            }
+        }
+
+
+      .pk {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0; 
+      }
+        
+        .circle {
+            width: 100px;
+            height: 100px;
+            background: conic-gradient(
+                from 0deg,
+                red,
+                yellow,
+                green,
+                blue,
+                purple,
+                red
+            );
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .inner-circle {
+            background: white;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .inner-circle span {
+            color: black;
+            font-size: 20px;
+        }
+.nam{
+    text-align: center;
+}
+
+.services-box {
+    padding: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
+.services-box:hover {
+    background-color: #02225a;
+}
+
+.services-box h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0.4rem;
+}
+
+.services-box:hover h3 {
+    color: #fff;
+}
+
+.services-box .bx {
+    padding-top: 2rem;
+    font-size: 54px;
+    color: var(--main-color);
+}
+
+.services-box:hover .bx {
+    color: #22cf91;
+}
+
+.services-box a {
+    color: var(--main-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+}
+
+.services-box:hover a {
+    color: #8b8a8f;
+}
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, auto));
+    justify-content: center;
+     gap: 1rem;
+    margin-top: 2rem; 
+} 
+.center{
+    text-align: center;
+}
+.ter{
+    margin-left: 530px;
+}
