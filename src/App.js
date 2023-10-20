@@ -6,13 +6,13 @@ import Contact from "./Component/Contact";
 import "./App.css";
 import Footer from "./Footer";
 
-import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter , Route, Link, Routes } from "react-router-dom";
 
 import Project from "./Component/Projects";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="My-portfolio-react-js">
       <div className="nav-bar">
         <div className="name">My Portfolio</div>
 
